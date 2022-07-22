@@ -1,0 +1,123 @@
+.propriedades-infos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.imagens-propriedades {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.imagens-propriedades img {
+  flex: 1;
+  min-width: 200px;
+}
+
+.imagens-propriedades img:first-child {
+  min-width: 100%;
+}
+
+.propriedades-conteudo button {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  border: none;
+  background: 0 0;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.propriedades-conteudo button::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 5px;
+  background-color: var(--cor-p1);
+}
+
+.propriedades-conteudo button::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background: url('../img/icons/seta-abrir.svg');
+  transition: .3s;
+}
+.propriedades-conteudo button:hover::after, .propriedades-conteudo button[aria-expanded=true]::after {
+  transform: rotate(180deg);
+}
+.propriedades-conteudo dl>div:nth-child(odd) {
+  background-color: var(--cor-1);
+}
+.propriedades-conteudo dl>div {
+  padding: 20px;
+}
+.propriedades-conteudo dd {
+  padding-left: 25px;
+  max-width: 80ch;
+}
+.js .propriedades-conteudo dd {
+  display: none;
+}
+.js .propriedades-conteudo dd.ativa {
+  display: block;
+}
+.propriedades-fale-conosco {
+  position: relative;
+  margin-top: 30px;
+}
+
+.propriedades-contato a {
+  display: block;
+}
+
+.propriedades-fale-conosco li:first-child {
+  margin-top: 5px;
+}
+
+.propriedades-contato .botao {
+  margin-top: 10px;
+}
+
+.propriedades-contato-conteudo ul li a:hover {
+  color: var(--cor-8);
+}
+
+.propriedades-contato .card-info::before, .propriedades-fale-conosco::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  left: -31px;
+  background-color: var(--cor-3);
+}
+
+.card-info {
+  position: relative;
+}
+
+.fale-conosco-conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 60px;
+  border: 1px solid var(--cor-3);
+  align-content: center;
+}
+
+@media (max-width: 900px) {
+  .propriedades-infos {
+    grid-template-columns: 1fr;
+  }
+  .fale-conosco-conteudo {
+    padding: 30px;
+  }
+}

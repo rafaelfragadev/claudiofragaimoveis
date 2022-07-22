@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cláudio Fraga - Corretor de Imóveis.</title>
+  <meta name="description" content="Venda e Aluguel de Imóveis e Terrenos em Capivari do Sul e Região.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+  <script>document.documentElement.className += ' js';</script>
+  <link rel="preload" href="./css/style.css" as="style">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <header id="header" class="header">
+    <a href="./"><img src="./img/logo.svg" width="137.65" height="59.01" alt="Logo"></a>
+    <nav class="js-menu" data-menu="suave" id="nav" aria-label="primária">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-expanded="false" aria-haspopup="true" aria-controls="menu">Menu<span id="hamburger"></span></button>
+      <ul data-menu="list" id="menu" role="menu" class="font-1-m cor-12">
+        <li><a href="./">Início</a></li>
+        <li><a href="./sobre.html">Sobre</a></li>
+        <li><a href="./propriedades.html">Propriedades</a></li>
+        <li><a href="./contato.html">Contato</a></li>
+        <li>
+          <img  src="./img/icons/whatsapp.svg" width="20" height="20">
+          <a href="https://api.whatsapp.com/send?phone=5551996115326" target="_blank">(51) 9 9611-5326</a>
+        </li>
+      </ul>
+    </nav>
+</header>
+
+<main class="introducao-bg">
+    <div class="introducao">
+        <h1 class="font-1-t cor-0">Venda e Avaliação de Imóveis e Terrenos</h1>
+        <p class="font-1-st cor-0">Imóveis e Terrenos em Capivari do Sul e região.</p>
+        <a class="botao" href="./contato.html" target="_blank">Solicitar Orçamento</a>
+    </div>
+</main>
+
+<article class="container sobre-intro">
+  <picture>
+    <source media="(max-width: 800px)" srcset="./img/Foto-Sobre-Teste.jpg">
+    <img src="./img/Foto-Sobre-Teste.jpg" width="1280" height="1600" alt="Sobre Cláudio Fraga Imóveis">
+  </picture>
+  <div class="sobre-conteudo">
+    <div class="sobre-experiencia">
+      <h2 class="font-1-tg cor-p1"><span>10</span></h2>
+      <h2 class="font-2-tg cor-12">Anos de Experiência</h2>
+    </div>
+    <p class="font-1-m-b cor-8">Fornecendo um serviço de alta qualidade, eficaz e inspirador.</p>
+    <p class="font-1-p cor-8">Prezando sempre pelo melhor para o cliente e procurando oferecer o melhor serviço disponível além de estar sempre correndo atrás para entregar além do que o esperado.</p>
+    
+    <div class="sobre-icones">
+      <div class="bg-icones">
+        <img width="42" height="42" src="./img/icons/aluguel.svg" alt="Alugueis Realizados">
+      </div>
+      <div class="sobre-infos">
+        <p class="font-2-m cor-12"><span>167+</span></p>
+        <p class="font-1-m-b cor-8">Propriedades Alugadas</p>
+    </div>
+  </div>
+  <div class="sobre-icones">
+      <div class="bg-icones">
+         <img width="42" height="42" src="./img/icons/venda.svg" alt="Vendas Realizadas">
+      </div>
+      <div class="sobre-infos">
+        <p class="font-2-m cor-12"><span>158+</span></p>
+        <p class="font-1-m-b cor-8">Propriedades Vendidas</p>
+      </div>
+    </div>
+
+    <a class="botao" href="./sobre.html" target="_blank">Mais Informações</a>
+  </div>
+
+</article>
+
+<article class="container propriedades-intro">
+  <h2 class="font-2-t cor-12">Nossas propriedades para venda e aluguel</h2>
+  <p class="font-2-st cor-7">Terrenos e Casas para venda e aluguel em Capivari do Sul e região.</p>
+
+<div class="filtro-propriedades">
+  <div class="menu-propriedades">
+    <ul class="selecao-propriedades">
+      <div class="titulo-categoria btn font-3-p active" id="tudo"><li>Mostrar tudo</li></div>
+      <div class="titulo-categoria btn font-3-p cor-12" id="venda"><li>Venda</li></div>
+      <div class="titulo-categoria btn font-3-p cor-12" id="aluguel"><li>Aluguel</li></div>
+    </ul>
+ </div>
+  <div class="lista-propriedades">  
+    <div class="card tudo aluguel">
+        <figure class="card-banner">
+          <a href="./propriedades/01-propriedade.html"><img src="./img/thumbs/thumb-1.jpg" alt="Casa 01"></a>
+        </figure>
+        <span class = "nome-categoria font-3-p">Aluguel</span>
+       <div class="card-conteudo">
+          <p class="font-3-p cor-7">Capivari do Sul, Centro</p>
+          <h3 class="font-1-m-b cor-12">Casa localizada no Centro, Capivari do Sul, RS.</h3>
+          <p class="font-3-p cor-7">Casa | CAS2794</p>
+          <span class="font-1-va cor-p1">R$ 600,00/mês.</span>
+          <div class="card-info">
+            <div class="info-1">
+              <div class="info-icon">
+                <img src="./img/icons/tamanho.svg" alt="Tamanho da Propriedade">
+              </div>
+              <p class="font-3-p cor-7">200 M²</p>
+            </div>
+            <div class="info-2">
+              <div class="info-icon">
+                <img src="./img/icons/local.svg" alt="Localização da Propriedade">
+              </div>
+              <p class="font-3-p cor-7">Centro</p>
+            </div>
+         </div>
+       </div>
+      </div>
+
+   <div class="card tudo venda">
+      <figure class="card-banner">
+        <a href="./propriedades/01-propriedade.html"><img src="./img/thumbs/thumb-2.jpg" alt="Casa 02"></a>
+      </figure>
+      <span class = "nome-categoria font-3-p">Venda</span>
+      <div class="card-conteudo">
+        <p class="font-3-p cor-7">Capivari do Sul, Jardim Formoso</p>
+        <h3 class="font-1-m-b cor-12">Terreno no Jardim Formoso, Capivari do Sul, RS.</h3>
+        <p class="font-3-p cor-7">Terreno | TER5623</p>
+       <span class="font-1-va cor-p1">R$ 330,00 Mil.</span>
+        <div class="card-info">
+          <div class="info-1">
+            <div class="info-icon">
+              <img src="./img/icons/tamanho.svg" alt="Tamanho da Propriedade">
+            </div>
+            <p class="font-3-p cor-7">300 M²</p>
+          </div>
+          <div class="info-2">
+            <div class="info-icon">
+              <img src="./img/icons/local.svg" alt="Localização da Propriedade">
+            </div>
+            <p class="font-3-p cor-7">J. Formoso</p>
+          </div>
+       </div>
+      </div>
+    </div> 
+
+      <div class="card tudo venda">
+        <figure class="card-banner">
+          <a href="./propriedades/01-propriedade.html"><img src="./img/thumbs/thumb-3.jpg" alt="Casa 03"></a>
+        </figure>
+        <span class = "nome-categoria font-3-p">Venda</span>
+        <div class="card-conteudo">
+          <p class="font-3-p cor-7">Capivari do Sul, Jardim Formoso</p>
+          <h3 class="font-1-m-b cor-12">Terreno no Jardim Formoso, Capivari do Sul, RS.</h3>
+          <p class="font-3-p cor-7">Terreno | TER5624</p>
+          <span class="font-1-va cor-p1">R$ 250,00 Mil.</span>
+          <div class="card-info">
+            <div class="info-1">
+              <div class="info-icon">
+                <img src="./img/icons/tamanho.svg" alt="Tamanho da Propriedade">
+              </div>
+              <p class="font-3-p cor-7">400 M²</p>
+            </div>
+            <div class="info-2">
+              <div class="info-icon">
+                <img src="./img/icons/local.svg" alt="Localização da Propriedade">
+              </div>
+              <p class="font-3-p cor-7">J. Formoso</p>
+            </div>
+         </div>
+        </div>
+      </div>
+
+      <div class="card tudo aluguel">
+        <figure class="card-banner">
+          <a href="./propriedades/01-propriedade.html"><img src="./img/thumbs/thumb-4.jpg" alt="Casa 04"></a>
+        </figure>
+        <span class = "nome-categoria font-3-p">Aluguel</span>
+        <div class="card-conteudo">
+          <p class="font-3-p cor-7">Capivari do Sul, Centro</p>
+          <h3 class="font-1-m-b cor-12">Casa localizada no Centro, Capivari do Sul, RS.</h3>
+          <p class="font-3-p cor-7">Casa | CAS2794</p>
+          <span class="font-1-va cor-p1">R$ 600,00/mês.</span>
+          <div class="card-info">
+            <div class="info-1">
+              <div class="info-icon">
+                <img src="./img/icons/tamanho.svg" alt="Tamanho da Propriedade">
+              </div>
+              <p class="font-3-p cor-7">250 M²</p>
+            </div>
+            <div class="info-2">
+              <div class="info-icon">
+                <img src="./img/icons/local.svg" alt="Localização da Propriedade">
+              </div>
+              <p class="font-3-p cor-7">Centro</p>
+            </div>
+         </div>
+        </div>
+      </div>
+
+      <div class="card tudo venda">
+        <figure class="card-banner">
+          <a href="#"><img src="./img/thumbs/thumb-5.jpg" alt="Casa 05"></a>
+        </figure>
+      <span class = "nome-categoria font-3-p">Venda</span>
+      <div class="card-conteudo">
+        <p class="font-3-p cor-7">Capivari do Sul, Centro</p>
+        <h3 class="font-1-m-b cor-12">Terreno localizado no Centro, Capivari do Sul, RS.</h3>
+        <p class="font-3-p cor-7">Terreno | TER5623</p>
+        <span class="font-1-va cor-p1">R$ 330,00 Mil.</span>
+        <div class="card-info">
+          <div class="info-1">
+            <div class="info-icon">
+              <img src="./img/icons/tamanho.svg" alt="Tamanho da Propriedade">
+            </div>
+            <p class="font-3-p cor-7">300 M²</p>
+          </div>
+          <div class="info-2">
+            <div class="info-icon">
+              <img src="./img/icons/local.svg" alt="Localização da Propriedade">
+            </div>
+            <p class="font-3-p cor-7">Centro</p>
+          </div>
+       </div>
+      </div>
+    </div>
+
+    <div class="card tudo venda">
+      <figure class="card-banner">
+        <a href="#"><img src="./img/thumbs/thumb-6.jpg" alt="Casa 06"></a>
+      </figure>
+      <span class = "nome-categoria font-3-p">Venda</span>
+     <div class="card-conteudo">
+        <p class="font-3-p cor-7">Capivari do Sul, Jardim Formoso</p>
+        <h3 class="font-1-m-b cor-12">Terreno no Jardim Formoso, Capivari do Sul, RS.</h3>
+        <p class="font-3-p cor-7">Terreno | TER5624</p>
+        <span class="font-1-va cor-p1">R$ 250,00 Mil.</span>
+        <div class="card-info">
+          <div class="info-1">
+            <div class="info-icon">
+              <img src="./img/icons/tamanho.svg" alt="Tamanho da Propriedade">
+            </div>
+            <p class="font-3-p cor-7">300 M²</p>
+          </div>
+          <div class="info-2">
+            <div class="info-icon">
+              <img src="./img/icons/local.svg" alt="Localização da Propriedade">
+            </div>
+            <p class="font-3-p cor-7">J. Formoso</p>
+          </div>
+       </div>
+     </div>
+    </div>
+  </div>
+  </div>
+</div>
+</article>
+
+<div class="cta-bg">
+  <div class="cta-info container">
+    <h2 class="font-1-t cor-0">Confira todas as nossas propriedades</h2>
+    <a class="botao" href="./propriedades.html" target="_blank">Ver Mais</a>
+  </div>
+</div>
+
+<article class="destaques-intro">
+  <div class="titulo-destaques">
+    <h2 class="font-2-t cor-12">Casas e Terrenos em destaque</h2>
+    <p class="font-2-st cor-7">Terrenos e Casas em destaque em Capivari do Sul e região.</p>
+ </div>
+
+  <ul class="destaques-venda">
+    <li>
+      <div class="card">
+      <figure class="card-banner">
+        <a href="./propriedades/01-propriedade.html"><img src="./img/thumbs/thumb-m-1.jpg" alt="Casa 01"></a>
+      </figure>
+      <span class = "nome-categoria font-3-p">Aluguel</span>
+      <div class="card-conteudo">
+        <p class="font-3-p cor-7">Capivari do Sul, Centro</p>
+        <h3 class="font-1-m-b cor-12">Casa localizada no Centro, Capivari do Sul, RS.</h3>
+        <p class="font-3-p cor-7">Casa | CAS2794</p>
+        <p class="font-1-va cor-p1"><span>R$ 600,00/mês.</span></p>
+        <div class="card-info">
+          <div class="info-1">
+            <div class="info-icon">
+              <img src="./img/icons/tamanho.svg" alt="Tamanho da Propriedade">
+            </div>
+            <p class="font-3-p cor-7">200 M²</p>
+          </div>
+          <div class="info-2">
+            <div class="info-icon">
+              <img src="./img/icons/local.svg" alt="Localização da Propriedade">
+            </div>
+            <p class="font-3-p cor-7">Centro</p>
+          </div>
+       </div>
+      </div>
+      </div>
+    </li>
+    <li>
+      <div class="card">
+        <figure class="card-banner">
+          <a href="./propriedades/01-propriedade.html"><img src="./img/thumbs/thumb-m-2.jpg" alt="Casa 02"></a>
+        </figure>
+        <span class = "nome-categoria font-3-p">Venda</span>
+        <div class="card-conteudo">
+          <p class="font-3-p cor-7">Capivari do Sul, Jardim Formoso</p>
+          <h3 class="font-1-m-b cor-12">Terreno no Jardim Formoso, Capivari do Sul, RS.</h3>
+          <p class="font-3-p cor-7">Terreno | TER5623</p>
+          <p class="font-1-va cor-p1"><span>R$ 330,00 Mil.</span></p>
+          <div class="card-info">
+            <div class="info-1">
+              <div class="info-icon">
+                <img src="./img/icons/tamanho.svg" alt="Tamanho da Propriedade">
+              </div>
+              <p class="font-3-p cor-7">300 M²</p>
+            </div>
+            <div class="info-2">
+              <div class="info-icon">
+                <img src="./img/icons/local.svg" alt="Localização da Propriedade">
+              </div>
+              <p class="font-3-p cor-7">J. Formoso</p>
+            </div>
+         </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="card"> 
+        <figure class="card-banner">
+          <a href="./propriedades/01-propriedade.html"><img src="./img/thumbs/thumb-m-3.jpg" alt="Casa 03"></a>
+        </figure>
+        <span class = "nome-categoria font-3-p">Venda</span>
+        <div class="card-conteudo">
+          <p class="font-3-p cor-7">Capivari do Sul, Centro</p>
+          <h3 class="font-1-m-b cor-12">Terreno localizado no Centro, Capivari do Sul, RS.</h3>
+          <p class="font-3-p cor-7">Terreno | TER5623</p>
+          <p class="font-1-va cor-p1"><span>R$ 330,00 Mil.</span></p>
+          <div class="card-info">
+            <div class="info-1">
+              <div class="info-icon">
+                <img src="./img/icons/tamanho.svg" alt="Tamanho da Propriedade">
+              </div>
+              <p class="font-3-p cor-7">250 M²</p>
+            </div>
+            <div class="info-2">
+              <div class="info-icon">
+                <img src="./img/icons/local.svg" alt="Localização da Propriedade">
+              </div>
+              <p class="font-3-p cor-7">Centro</p>
+            </div>
+         </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="card">
+        <figure class="card-banner">
+          <a href="./propriedades/01-propriedade.html"><img src="./img/thumbs/thumb-m-4.jpg" alt="Casa 04"></a>
+        </figure>
+        <span class="nome-categoria font-3-p">Venda</span>
+        <div class="card-conteudo">
+          <p class="font-3-p cor-7">Capivari do Sul, Jardim Formoso</p>
+          <h3 class="font-1-m-b cor-12">Terreno no Jardim Formoso, Capivari do Sul, RS.</h3>
+          <p class="font-3-p cor-7">Terreno | TER5624</p>
+          <p class="font-1-va cor-p1"><span>R$ 250,00 Mil.</span></p>
+          <div class="card-info">
+            <div class="info-1">
+              <div class="info-icon">
+                <img src="./img/icons/tamanho.svg" alt="Tamanho da Propriedade">
+              </div>
+              <p class="font-3-p cor-7">200 M²</p>
+            </div>
+            <div class="info-2">
+              <div class="info-icon">
+                <img src="./img/icons/local.svg" alt="Localização da Propriedade">
+              </div>
+              <p class="font-3-p cor-7">Centro</p>
+            </div>
+         </div>
+        </div>
+      </li>
+    </div>
+  </ul>
+</article>
+
+<section class="contato-bg">
+  <div class="contato container">
+    <div class="contato-conteudo">
+      <div class="fale-conosco">
+        <p class="font-1-m-u cor-5">Fale conosco</p>
+        <h2 class="font-1-va cor-0">Dúvidas?<br>Entre em contato</h2>
+          <ul class="contato-dados">
+          <address>
+            <li class="font-2-p cor-3"><a href="mailto:contato@claudiofragaimoveis.com.br">contato@claudiofragaimoveis.com.br</a></li>
+            <li class="font-2-p cor-3"><a href="tel:+55 (51) 9 9611-5326">+55 (51) 9 9611-5326</a></li>
+          </address>
+          </ul>    
+      </div>
+      <ul class="atendimento">
+        <li><p class="font-1-m-u cor-5">Atendimento</p></li>  
+        <li><h2 class="font-1-va cor-0">Horário</h2></li>  
+        <li><h3 class="font-2-st cor-0">Segunda à Sexta</h3></li>  
+        <li><p class="font-2-p cor-3">08:00 às 18:00</p></li>  
+        <li><h3 class="font-2-st cor-0">Sábado</h3></li>  
+        <li><p class="font-2-p cor-3">08:00 às 12:00</p></li>  
+      </ul>  
+    </div>
+    <div class="contato-mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3450.377884914983!2d-50.514739284341424!3d-30.140610442717694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951838003e0a3e5d%3A0x3bd9ce9850133c36!2sR.%20Portugal%2C%20280%20-%20Capivari%20do%20Sul%2C%20RS%2C%2095552-000!5e0!3m2!1spt-PT!2sbr!4v1657907061574!5m2!1spt-PT!2sbr" width="100%" height="496" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer id="rodape">
+  <div class="footer-bg">
+    <div class="container footer-conteudo">
+      <div class="logo-rodape">
+        <a href="./"><img src="./img/logo-footer.svg" width="137.65" height="59.01" alt="Logo"></a>
+      </div>
+      <div class="contato-footer">
+        <h2 class="font-1-m-b cor-0">Fale Conosco</h2>
+        <ul>
+          <li class="font-1-p cor-5"><a href="mailto:contato@claudiofragaimoveis.com.br">contato@claudiofragaimoveis.com.br</a></li>
+          <li class="font-1-p cor-5"><a href="tel:+55 (51) 9 9611-5326">+55 (51) 9 9611-5326</a></li>
+          <li class="font-1-p cor-5">Rua Portugal, 280</li>
+          <li class="font-1-p cor-5">Capivari do Sul - RS</li>
+          <li class="font-1-p cor-5">
+            <a href="https://www.facebook.com/claudiofragaimoveis" target="_blank"><img src="./img/icons/facebook.svg" width="30" height="30" alt="Facebook"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-footer">
+        <h2 class="font-1-m-b cor-0">Menu</h2>
+        <ul>
+          <li class="font-1-p cor-5"><a href="./">Início</a></li>
+          <li class="font-1-p cor-5"><a href="./sobre.html">Sobre</a></li>
+          <li class="font-1-p cor-5"><a href="./propriedades.html">Propriedades</a></li>
+          <li class="font-1-p cor-5"><a href="./contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>  
+  </div>
+  <div class="assinatura">
+    <p class="font-2-p cor-7">Desenvolvido por <a href="https://rafaelfragawebdesigner.com.br/" target="_blank">Rafael Fraga Web Designer</a></p>
+  </div>
+</footer>
+
+<script type="module" src="./js/script.js"></script>
+</body>
+</html>

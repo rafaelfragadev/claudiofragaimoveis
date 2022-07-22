@@ -1,0 +1,25 @@
+.selecao-propriedades {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.selecao-propriedades .titulo-categoria li {
+  list-style: none;
+  background: var(--cor-2);
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.selecao-propriedades .titulo-categoria.active li {
+  background: var(--cor-p1);
+  color: var(--cor-0);
+}
+.selecao-propriedades li.active:hover {
+  background: var(--cor-p2);
+}
+.selecao-propriedades li:hover {
+  background: var(--cor-3);
+}

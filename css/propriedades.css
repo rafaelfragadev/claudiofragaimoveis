@@ -1,0 +1,130 @@
+.lista-propriedades {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 60px;
+  gap: 30px;
+}
+
+.card {
+  box-shadow: 0 16px 32px hsla(188, 63%, 7%, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.card-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info-1, .info-2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 1px solid var(--cor-3);
+  align-items: center;
+  justify-content: center;
+}
+
+.info-icon img{
+  width: 23px;
+  height: 23px;
+  color: var(cor-7);
+}
+
+.info-1 {
+  gap: 7px;
+  border-style: solid none solid solid;
+}
+
+.info-2 {
+  gap: 5px;
+  border: 1px solid var(--cor-3);
+}
+
+.primeira-info, .segunda-info {
+  border: 1px solid var(--cor-3);
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+.card-conteudo {
+  padding: 30px;
+}
+
+.card-conteudo span {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.card-conteudo h3{
+  margin: 5px 0;
+  max-width: 270px;
+}
+
+.card-banner {
+  width: 100%;
+}
+
+.card-banner img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.card-banner:hover img{
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.nome-categoria {
+  position: absolute;
+  background-color: var(--cor-p1);
+  color: var(--cor-0);
+  padding: .5rem 1rem;
+  top: 20px;
+  right: 20px;
+  box-shadow: 0 0 3px rgba(0, 149, 218, .6);
+}
+
+.card-banner {
+  overflow: hidden;
+}
+
+.card .card-banner a {
+  height: 100%;
+}
+@media(max-width: 900px) {
+  .lista-propriedades {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(max-width: 740px) {
+  .lista-propriedades img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 660px){
+  .lista-propriedades {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 490px) {
+  .card-info {
+    grid-template-columns: 1fr;
+  }
+  .info-1 {
+    border-style: solid;
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 350px) {
+  .card-info {
+    display: none;
+  }
+}

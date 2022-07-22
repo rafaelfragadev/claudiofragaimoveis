@@ -1,0 +1,149 @@
+.font-1-t {
+  font: 600 3.75rem/1.125 "Roboto", sans-serif;
+}
+
+.font-1-m {
+  font: 500 1rem/1.35 "Roboto", sans-serif;
+}
+
+.font-1-p {
+  font: 400 1.313rem/1.35 "Roboto", sans-serif;
+}
+
+.font-1-btn {
+  font: 400 0.875rem/1.43 "Roboto", sans-serif;
+}
+
+.font-1-st {
+  font: 400 1.563rem/1.25 "Merriweather", serif;
+  font-style: italic;
+}
+
+.font-1-tg {
+  font: 900 7.5rem/0 "Roboto", sans-serif;
+}
+
+.font-2-tg {
+  font: 400 2.5rem/1.125 "Roboto", sans-serif;
+}
+
+.font-1-m-b {
+  font: 600 1.313rem/1.35 "Roboto", sans-serif;
+}
+
+.font-1-m-u {
+  font: 500 0.875rem/1.35 "Roboto", sans-serif;
+  letter-spacing: 2.5px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.font-2-p {
+  font: 400 1rem/1.35 "Roboto", sans-serif;
+}
+
+.font-2-p-u {
+  text-decoration: underline;
+}
+
+.font-2-t {
+  font: 600 2.375rem/1.25 "Roboto", sans-serif;
+}
+
+.font-2-st {
+  font: 400 1.313rem/1.35 "Roboto", sans-serif;
+}
+
+.font-1-va {
+  font: 600 1.875rem/1.25 "Roboto", sans-serif;
+}
+
+.font-3-p {
+  font: 400 0.875rem/1.25 "Roboto", sans-serif;
+}
+
+.font-2-m {
+  font: 600 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+@media (max-width: 1100px) {
+  .font-1-va {
+    font-size: 1.65rem;
+  }
+  h2.font-1-t {
+    font-size: 2.75rem;
+  }
+  .font-3-m {
+    font-size: 0.675rem;
+  }
+}
+
+@media (max-width: 900px){
+  .font-1-t {
+    font-size: 2.35rem;
+  }
+
+  .font-2-t {
+    font-size: 2.35rem;
+  }
+  
+}
+
+@media (max-width: 750px) {
+  .font-2-st {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .font-1-va {
+    font-size: 1.5rem;
+  }
+  .font-2-st {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 490px){
+  .font-1-tg {
+    font-size: 6rem;
+  }
+  .font-2-t {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  .font-2-tg {
+    font-size: 2rem;
+}
+  .font-1-p, .font-2-p {
+    font-size: 1rem;
+  }
+  .font-1-m-b{
+    font-size: 1rem;
+  }
+  .font-2-st {
+    font-size: 1rem;
+  }
+  h2.font-1-t {
+    font-size: 1.65rem;
+  }
+  .font-1-m {
+    font-size: 0.875rem;
+  }
+}
+
+@media(max-width: 350px) {
+  .font-2-t {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .font-1-tg {
+    font-size: 4.5rem;
+  }
+  .font-2-tg {
+    font-size: 1.35rem;
+}
+}

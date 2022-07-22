@@ -1,0 +1,45 @@
+.introducao-bg {
+ background-image: url('../img/fotoaereacapivari.jpg');
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ display: block;
+ margin-top: 88px;
+}
+
+.introducao-bg img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.introducao h1 {
+  max-width: 595px;
+}
+.introducao p {
+  margin-bottom: 15px;
+}
+.introducao {
+  padding: 30px;
+  box-sizing: border-box;
+  min-height: 740px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .75);
+  margin-bottom: 80px;
+}
+
+.introducao-bg img {
+  height: 100%;
+}
+
+@media (max-width: 460px) {
+  .introducao {
+    margin-bottom: 40px;
+  }
+}
+

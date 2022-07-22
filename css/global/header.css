@@ -1,0 +1,43 @@
+#header {
+  display: flex;
+  padding: 2rem;
+  box-sizing: border-box;
+  background: var(--cor-0);
+  justify-content: space-around;
+  height: 88px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur( 5px );
+  z-index: 999;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+}
+
+#menu {
+  display: flex;
+  gap: 25px;
+}
+
+#menu a {
+  padding: .5rem;
+  display: block;
+  transition: .3s;
+}
+
+#menu li:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#menu a:hover {
+  color: var(--cor-p1);
+}
+
+@media (max-width: 900px)  {
+  #header {
+    justify-content: space-between;
+  }
+}
