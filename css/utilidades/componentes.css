@@ -22,6 +22,10 @@
   border: 2px solid transparent;
 }
 
+.botao-sobre {
+  padding: 20px;
+}
+
 .botao:hover, .botao-sobre:hover{
   background-color: var(--cor-p2);
   box-shadow: 0 0 3px rgba(0, 131, 191, .3);
