@@ -40,7 +40,7 @@
 
 .destaques-venda::-webkit-scrollbar-track {
   background: var(--cor-4);
-  box-shadow: inset 0 0 5px var(--cor-6);
+  box-shadow: inset 0 0 5px var(--cor-5);
 }
 
 @media (min-width: 700px){

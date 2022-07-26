@@ -53,6 +53,22 @@
   background-color: var(--cor-5);
 }
 
+.titulo-internas-contato {
+  text-transform: lowercase;
+  text-align: center;
+  margin-top: 88px;
+  padding: 70px 40px;
+  background-color: var(--cor-p3);
+}
+
+.titulo-internas-contato p {
+  text-transform: uppercase ;
+}
+
+.contato-mapa {
+  margin-bottom: -4px;
+}
+
 @media (max-width: 900px) {
   .contato {
     grid-template-columns: 1fr;

@@ -10,7 +10,7 @@
 .sobre-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px 15px;
+  gap: 29px 15px;
 }
 
 .sobre-intro picture img{
