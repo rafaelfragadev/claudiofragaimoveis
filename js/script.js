@@ -9,3 +9,9 @@ initimagensPropriedades();
 
 import initpropriedadesConteudo from './modules/propriedades-conteudo.js';
 initpropriedadesConteudo();
+
+import initAnimaNumeros from './modules/anima-numeros.js';
+initAnimaNumeros();
+
+import initAnimacaoScroll from './modules/anima-scroll.js';
+initAnimacaoScroll();
