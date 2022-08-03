@@ -1,3 +1,6 @@
+import ScrollAnima from './modules/scroll-anima.js';
+import ScrollSuave from './modules/scroll-suave.js';
+
 import initmenuMobile from './modules/menu-mobile.js';
 initmenuMobile();
 
@@ -13,5 +16,8 @@ initpropriedadesConteudo();
 import initAnimaNumeros from './modules/anima-numeros.js';
 initAnimaNumeros();
 
-import initAnimacaoScroll from './modules/anima-scroll.js';
-initAnimacaoScroll();
+const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
+scrollSuave.init();
+
+const scrollAnima = new ScrollAnima('[data-anime="scroll"]');
+scrollAnima.init();
