@@ -1,19 +1,19 @@
 .imagem-sobre {
-  background-image: url(../img/propriedades/01.jpg);
+  background-image: url(../img/propriedades/sobre.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .imagem-propriedades {
-  background-image: url(../img/propriedades/02.jpg);
+  background-image: url(../img/propriedades/propriedades.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .imagem-contato {
-  background-image: url(../img/propriedades/03.jpg);
+  background-image: url(../img/propriedades/contato.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
