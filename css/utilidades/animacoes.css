@@ -11,11 +11,11 @@
 }
 
 [data-anime="show-right"] {
-  animation: show-right 1.5s forwards;
+  animation: show-right 1.2s forwards;
 }
 
 [data-anime="show-down"] {
-  animation: show-down 1.5s forwards;
+  animation: show-down 1.2s forwards;
 }
 
 @keyframes show-right {

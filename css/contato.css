@@ -58,7 +58,8 @@
   text-align: center;
   margin-top: 88px;
   padding: 70px 40px;
-  background-color: var(--cor-p3);
+  background-color: rgba(0, 46, 82, .9);
+  overflow: hidden;
 }
 
 .titulo-internas-contato p {
