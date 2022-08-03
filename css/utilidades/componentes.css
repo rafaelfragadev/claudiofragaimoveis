@@ -22,31 +22,9 @@
   border: 2px solid transparent;
 }
 
-.botao-sobre {
-  padding: 20px;
-}
-
-.botao:hover, .botao-sobre:hover{
+.botao:hover {
   background-color: var(--cor-p2);
   box-shadow: 0 0 3px rgba(0, 131, 191, .3);
-}
-
-.botao-sobre:hover {
-  border: 2px solid var(--cor-p1);
-}
-
-.botao-sobre {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.cta-phone {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  margin-left: 10px;
 }
 
 .titulo-internas {
@@ -55,7 +33,8 @@
   margin-top: 88px;
   margin-bottom: 80px;
   padding: 70px 40px;
-  background-color: var(--cor-p3);
+  background-color: rgba(0, 46, 82, .9);
+  overflow: hidden;
 }
 
 .titulo-internas p {

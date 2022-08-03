@@ -1,3 +1,24 @@
+.imagem-sobre {
+  background-image: url(../img/propriedades/01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.imagem-propriedades {
+  background-image: url(../img/propriedades/02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.imagem-contato {
+  background-image: url(../img/propriedades/03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .lista-propriedades {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
