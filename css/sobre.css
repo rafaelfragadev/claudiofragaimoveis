@@ -18,6 +18,7 @@
   height: 460px;
   object-fit: cover;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1);
+  border-radius: 3px;
 }
 
 .sobre-experiencia {
@@ -29,12 +30,12 @@
 
 .bg-icones {
   background-color: var(--cor-p1);
-  width: 70px;
-  height: 70px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 3px rgba(0, 149, 218, .3);
+  border-radius: 3px;
 }
 .sobre-icones {
   display: flex;

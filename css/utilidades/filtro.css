@@ -11,6 +11,7 @@
   padding: 12px 20px;
   cursor: pointer;
   transition: .3s;
+  border-radius: 3px;
 }
 
 .selecao-propriedades .titulo-categoria.active li {

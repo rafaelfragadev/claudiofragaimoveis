@@ -20,6 +20,7 @@
   display: block;
   box-sizing: border-box;
   border: 2px solid transparent;
+  border-radius: 3px;
 }
 
 .botao:hover {
@@ -49,4 +50,24 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+.imagem-sobre {
+  background-image: url(../../img/propriedades/sobre.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.imagem-propriedades {
+  background-image: url(../../img/propriedades/propriedades.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.imagem-contato {
+  background-image: url(../../img/propriedades/contato.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

@@ -1,16 +1,20 @@
 #header {
-  display: flex;
-  padding: 2rem;
   box-sizing: border-box;
   background: var(--cor-0);
-  justify-content: space-around;
-  height: 88px;
   width: 100%;
   position: fixed;
   top: 0;
   align-items: center;
   z-index: 999;
   box-shadow: 0 3px 6px rgb(0 0 0 / 5%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+  padding: 1rem;
 }
 
 #menu {
