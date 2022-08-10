@@ -4,7 +4,7 @@ export default function initimagensPropriedades() {
   
   function trocarImagem(event){
     const img = event.currentTarget;
-    const media = matchMedia('(min-width: 900px)').matches;
+    const media = matchMedia('(min-width: 700px)').matches;
     if(media){
       imagensContainer.prepend(img);
     }
@@ -12,6 +12,5 @@ export default function initimagensPropriedades() {
   function eventosImagens(img){
     img.addEventListener('click', trocarImagem);
   }
-  
   imagens.forEach(eventosImagens);
 }

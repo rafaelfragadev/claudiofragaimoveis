@@ -26,6 +26,7 @@ nav {
 #menu a {
   padding: .5rem;
   display: block;
+  text-align: center;
   transition: .3s;
 }
 
@@ -59,7 +60,22 @@ nav {
 }
 
 @media (max-width: 900px)  {
+  .botao-whats {
+    width: 100%;
+    padding: 2rem;
+    justify-content: center;
+  }
+  #menu li .botao-whats a {
+    padding: .3rem;
+    margin: 0;
+  }
   #header {
     justify-content: space-between;
+  }
+  #menu li:last-child {
+    border: none;
+  }
+  #menu li:nth-child(4) {
+    border: none;
   }
 }

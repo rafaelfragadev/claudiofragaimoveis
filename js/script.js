@@ -12,10 +12,6 @@ import initimagensPropriedades from './modules/imagens-propriedades.js';
 
 import initpropriedadesConteudo from './modules/propriedades-conteudo.js';
 
-import initGoogleMaps from './modules/map.js';
-
-initGoogleMaps();
-
 initpropriedadesConteudo();
 
 initimagensPropriedades();

@@ -39,12 +39,6 @@
 </main>
 
 <article class="propriedades-infos container">
-  <div class="imagens-propriedades">
-    <img src="../img/propriedades/imagem-terreno.jpg" alt="Imagem da Propriedade na Avenida Adrião Monteiro">
-    <img src="../img/propriedades/imagem-casa.jpg" alt="Imagem da Propriedade na Avenida Adrião Monteiro">
-    <img src="../img/propriedades/imagem-terreno-1.jpg" alt="Imagem da Propriedade na Avenida Adrião Monteiro">
-    <img src="../img/propriedades/imagem-terreno-2.jpg" alt="Imagem da Propriedade na Avenida Adrião Monteiro">
-  </div>
   
   <div class="propriedades-conteudo">
     <h3 class="font-1-m-b cor-12">Terreno localizado no Jardim Formoso,</h3>
@@ -96,6 +90,7 @@
         <p class="font-1-m cor-7">Centro</p>
       </div>
    </div>
+
    <div class="propriedades-fale-conosco">
     <div class="fale-conosco-conteudo">
       <h3 class="font-1-m-b cor-12">Fale Conosco</h3>
@@ -107,12 +102,23 @@
       </ul>
       <a class="botao" href="../contato.html">Fale Conosco</a>
     </div>
-     
    </div>
   </div>
 
+  <div class="google-mapa">
+    <div id="map-localizacao"></div>
+    <div id="map-visao"></div>
+   </div>
 
+  <div class="imagens-propriedades">
+    <img src="../img/propriedades/imagem-terreno.jpg" alt="Imagem da Propriedade na Avenida Adrião Monteiro">
+    <img src="../img/propriedades/imagem-casa.jpg" alt="Imagem da Propriedade na Avenida Adrião Monteiro">
+    <img src="../img/propriedades/imagem-terreno-1.jpg" alt="Imagem da Propriedade na Avenida Adrião Monteiro">
+    <img src="../img/propriedades/imagem-terreno-2.jpg" alt="Imagem da Propriedade na Avenida Adrião Monteiro">
+  </div>
 </article>
+
+
 
 <div class="cta-bg">
   <div class="cta-info container">
@@ -301,10 +307,10 @@
     <p class="font-2-p cor-7">Desenvolvido por <a href="https://rafaelfragawebdesigner.com.br/" target="_blank">Rafael Fraga Web Designer</a></p>
   </div>
 </footer>
-
 <script src="../main.js"></script>
-<script defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCl7HR1a37qIb-wdrmxzvl_Hzd_Yq3qwaY&callback=initMap">
+<script src="../js/modules/map.js"></script>
+<script async
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCl7HR1a37qIb-wdrmxzvl_Hzd_Yq3qwaY&callback=initialize" defer>
 </script>
 </body>
 </html>
